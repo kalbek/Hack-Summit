@@ -89,6 +89,11 @@ In order to run this project you need
 
 Clone this repository to your desired folder:
 
+git clone https://github.com/kalbek/Hack-Summit.git
+
+For stylelint error run:sudo npx stylelint "*/.{css,scss}" --fix
+refer to [this-link](https://github.com/microverseinc/linters-config/tree/master/javascript) to resolve lint errors.
+
 ### Install
 
 Install this project using the cloned repo or download and use the files to your local machine.
