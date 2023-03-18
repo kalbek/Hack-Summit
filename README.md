@@ -31,11 +31,12 @@
 
 ## 🛠 Built With <a name="built-with"> HTML CSS & Java Script</a>
 
+# 👁  Walkthough HakcSummit 2023 <a name="about-project"></a>
 - Video to walkthrough of this project can be found [here]("https://www.loom.com/share/fadb70b392754ee8ab23da8b3fff2f26")
 
 ## 👁  Walkthough <a name="walkthough"> </a>
 
-Checkout the [video](https://www.loom.com/share/354d06ce5b2d4e83a8d2eef21ad1cd48) for the walkthough of this project.
+Checkout the [video](https://www.loom.com/share/fadb70b392754ee8ab23da8b3fff2f26) for the walkthough of this project.
 
 ### Tech Stack <a name="tech-stack"></a>
 
