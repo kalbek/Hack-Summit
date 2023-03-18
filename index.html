@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="./styles/home.style.mobile.css" />
+    <link rel="stylesheet" href="./styles/home.style.desktop.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Domine&family=Inter:wght@400;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@100&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--  -->
+    <header>
+      <nav>
+        <div class="top-nav flex-end">
+          <div class="container">
+            <ul class="flex gap-1">
+              <li>
+                <a href=""
+                  ><img
+                    src="./images/home/facebook.svg"
+                    alt="facebook icon"
+                    srcset=""
+                /></a>
+              </li>
+              <li>
+                <a href=""></a
+                ><img
+                  src="./images/home/twitter.svg"
+                  alt="twitter icon"
+                  srcset=""
+                />
+              </li>
+              <li><a href=""></a>English</li>
+              <li><a href=""></a>My Page</li>
+              <li><a href=""></a>Logout</li>
+            </ul>
+          </div>
+        </div>
+        <!-- mobile menu active state -->
+        <section id="mobile-menu-active" class="mobile-menu-active hidden">
+          <div class="container">
+            <ul>
+              <li class="" id="mobile-about">
+                <a href="./about.html">About</a>
+              </li>
+              <li class="" id="mobile-contact">
+                <a href="#program">Program</a>
+              </li>
+              <li class="" id="mobile-contact">
+                <a href="#join">Join</a>
+              </li>
+              <li class="" id="mobile-contact">
+                <a href="#sponsor">Sponsor</a>
+              </li>
+              <li class="" id="mobile-contact">
+                <a href="#news">News</a>
+              </li>
+            </ul>
+
+            <div class="close" id="close-mobile-menus">
+              <img
+                src="./images/mobile-active-menu-close.svg"
+                alt="close menu button"
+              />
+            </div>
+          </div>
+        </section>
+        <div class="bottom-nav relative flex-centered">
+          <div class="mobile-menu">
+            <img
+              id="open-mobile-menu"
+              src="./images/mobile-menu.svg"
+              alt="open mobile menu"
+            />
+          </div>
+          <div class="container flex-spaced">
+            <div class="logo-container">
+              <a href="./index.html">
+                <img src="./images/home/logo.svg" alt="logo" srcset="" />
+              </a>
+            </div>
+            <div class="menu-container flex">
+              <ul class="flex">
+                <li><a href="./about.html">About</a></li>
+                <li><a href="">Program</a></li>
+                <li><a href="">Join</a></li>
+                <li><a href="">Sponsor</a></li>
+                <li><a href="">News</a></li>
+              </ul>
+            </div>
+            <div class="cc-container">
+              <img src="./images/home/campaign.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="flex-centered">
+      <div class="container">
+        <!-- hero section -->
+        <div class="hero flex-column-centered">
+          <div class="hero-image">
+            <p>"Featuring Blockchain pioneers!"</p>
+            <h1 class="text-clip">
+              HACK SUMMIT <br />
+              VIRTUAL CONFERENCE <br />
+              2023
+            </h1>
+          </div>
+          <div class="sub-theme">
+            <div class="container">
+              <p>
+                A pure virtual event, re-imagined for the modern era. Watch from
+                the comfort of your home Vote to democratize the best speaker
+                questions Chat in realtime with audience members.
+              </p>
+            </div>
+          </div>
+          <div class="date-venue">
+            <div class="primary-text">2023.10.15(THU) ~ 16(FRI)</div>
+            <div class="secondary-text">
+              All sessions will be recorded and made available to you
+            </div>
+          </div>
+        </div>
+        <!-- program section -->
+        <div class="main-program">
+          <div class="container flex-column-centered">
+            <div class="title">
+              <heading>Main Program</heading>
+              <div class="bar">
+                <img src="./images/home/bar-small.svg" alt="" />
+              </div>
+            </div>
+            <div class="programs">
+              <div class="program-card">
+                <div class="container">
+                  <div class="icon">
+                    <img
+                      src="./images/home/lecture-icon.svg"
+                      alt="lecture icon"
+                    />
+                  </div>
+                  <div class="container">
+                    <div class="label">Lecture</div>
+                    <div class="text">
+                      Listen to the speakers from various countries about the
+                      messages of sharing and opening.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="program-card">
+                <div class="container">
+                  <div class="icon">
+                    <img
+                      src="./images/home/ccexhibition-icon.svg"
+                      alt="CC Exhibition Icon"
+                    />
+                  </div>
+                  <div class="container">
+                    <div class="label">CC Exhibition</div>
+                    <div class="text">
+                      Appreciate various creations applying CC license of
+                      artists, organized from Art Center Nabi
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="program-card">
+                <div class="container">
+                  <div class="icon">
+                    <img src="./images/home/forum-icon.svg" alt="forum icon" />
+                  </div>
+                  <div class="container">
+                    <div class="label">Forum</div>
+                    <div class="text">
+                      Have the time to share your thoughts and opinions with
+                      experts for each topic.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="program-card">
+                <div class="container">
+                  <div class="icon">
+                    <img
+                      src="./images/home/workshop-icon.svg"
+                      alt="workshop icon"
+                    />
+                  </div>
+                  <div class="container">
+                    <div class="label">Workshop</div>
+                    <div class="text">
+                      Try creating your own work using open source license
+                      rather than just watching at it.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="program-card">
+                <div class="container">
+                  <div class="icon">
+                    <img
+                      src="./images/home/ccignite-icon.svg"
+                      alt="cc ignite icon"
+                    />
+                  </div>
+                  <div class="container">
+                    <div class="label">CC Ignite</div>
+                    <div class="text">
+                      get opportunities to network with CC affiliates around the
+                      world, also after the summit.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="see-program">
+              <p><u>SEE THE WHOLE PROGRAM</u></p>
+            </div>
+            <div class="join-button flex-center-centered">
+              <div class="text flex-centered">Join CC Global Summit 2015</div>
+            </div>
+          </div>
+        </div>
+        <!-- featured speakers section -->
+        <div class="featured-speakers">
+          <div class="container flex-column-centered">
+            <div class="titles flex-column-centered">
+              <div class="title">Featured Speakers</div>
+              <div class="bar"></div>
+            </div>
+            <div class="speaker-group"></div>
+            <div class="more-button flex-center-centered">
+              <div class="container flex-spaced gap-1">
+                <p id="more-less">MORE</p>
+                <div class="arrow"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- partners section. -->
+        <div class="partner">
+          <div class="container">
+            <div class="title">
+              <div class="text">Partner</div>
+              <div class="bar"></div>
+            </div>
+            <div class="icons">
+              <div class="mozilla">
+                <img src="./images/home/mozilla-logo.svg" alt="" srcset="" />
+              </div>
+              <div class="google">
+                <img
+                  src="./images/home/googlekorea-logo.svg"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+              <div class="naver">
+                <img src="./images/home/naver-logo.svg" alt="" />
+              </div>
+              <div class="daumakakao">
+                <img src="./images/home/daumkakao-logo.svg" alt="" srcset="" />
+              </div>
+              <div class="airbnb">
+                <img src="./images/home/airbnb-logo.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- footer section -->
+        <div class="footer">
+          <div class="container">
+            <div class="footer-logo"></div>
+            <div class="text-content">
+              <div class="copy-right">
+                Hack Summit Virtual Conference 2023. Some Rights Reserved.
+              </div>
+              <div class="sub-text">
+                A pure virtual event, re-imagined for the modern era. One of the
+                largest virtual developer event series.Support Great Causes All
+                ticket proceeds go towards an alliance of technology
+                non-profits. https://www.hacksummit.org/ 를 보세요.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+  <script src="./script/script.js"></script>
+</html>
