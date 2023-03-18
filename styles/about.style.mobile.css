@@ -232,6 +232,10 @@ body {
   display: none;
 }
 
+.featured-speakers {
+  display: none;
+}
+
 /* styling the mobile menu */
 
 .mobile-menu-active {
