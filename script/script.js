@@ -111,7 +111,47 @@ function main() {
     secondSpeaker.classList.add('visible');
   });
 }
-
+// handle mobile menu opening and closing
+const indexMenu = document.getElementById('open-mobile-menu');
+const aboutMenu = document.getElementById('open-mobile-menu-about');
+const mobileMenu = document.getElementById('mobile-menu-active');
+const closeMobileMenu = document.getElementById('close-mobile-menus');
+const aboutOption = document.getElementById('mobile-about');
+// function to handle closing mobile menu
+function handleCloseMobileMenu() {
+  if (
+    mobileMenu.classList.contains('visible')
+  ) {
+    mobileMenu.classList.remove('visible');
+    mobileMenu.classList.add('hidden');
+  }
+}
+// function to handle opening mobile menu
+function handleOpenMobileMenu() {
+  if (
+    mobileMenu.classList.contains('hidden')
+  ) {
+    mobileMenu.classList.remove('hidden');
+    mobileMenu.classList.add('visible');
+  }
+}
+// open mobile menu on hamburger icon click (index page)
+indexMenu.addEventListener('click', () => {
+  handleOpenMobileMenu();
+});
+// open mobile menu on hamburger icon click (about page)
+if (aboutMenu !== null) {
+  aboutMenu.addEventListener('click', () => {
+    handleOpenMobileMenu();
+  });
+}
+// event listeners for close button on mobile menu
+closeMobileMenu.addEventListener('click', () => {
+  handleCloseMobileMenu();
+});
+aboutOption.addEventListener('click', () => {
+  handleCloseMobileMenu();
+});
 // control number of speakers displayed for mobile and desktop views initially
 function controlSpeakers() {
   const screenWidth = window.screen.width;
