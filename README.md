@@ -140,7 +140,7 @@ If you like this project give a star to this repositiory.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank the Microverse full-stack curriculum for the inspiration and guidance.
+A huge shoutout for [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) who is creator of the original design in which this project is inspired.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
