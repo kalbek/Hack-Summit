@@ -199,6 +199,11 @@
     content: url("../images/home/program-title-underline.svg");
   }
 
+  .gray-bar {
+    content: url("../images/gray-bar-desktop.svg");
+    padding-bottom: 0.8rem;
+  }
+
   .main-program .title .bar {
     margin-left: 4%;
     margin-top: 1rem;
