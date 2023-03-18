@@ -68,6 +68,72 @@ function main() {
         </div>
       </div>
         `;
-  }); 
+  });
+  //   handle MORE button action to toggle display for speakers
+  const more = document.querySelector('.more-button');
+  const moreOrLess = document.getElementById('more-less');
+  more.addEventListener('click', () => {
+    speakerDiv.innerHTML = '';
+    speakers.forEach((speaker) => {
+      speakerDiv.innerHTML += `
+        <div class='speaker-container speaker${speaker.id}
+        ${moreOrLess.textContent === 'MORE' ? 'visible' : 'hidden'
+}' id='speaker-container'>
+            <div class='speaker'>
+                <div class='image' style='background-image: url(${
+  speaker.imageUrl
+})'></div>
+                    <div class='text-content'>
+                        <div class='title'>${speaker.title}</div>
+                        <div class='main-text'>${speaker.mainText}</div>
+                    <div class='sub-text'>${speaker.subText}</div>
+                </div>
+            </div>
+        </div>
+        `;
+    });
+    //   toogle text content for MORE / LESS button and flip arrow direction on more or less
+    const speakerContainer = document.getElementById('speaker-container');
+    const moreOrLessArrow = document.querySelector('.arrow');
+    if (speakerContainer.classList.contains('visible')) {
+      moreOrLess.innerHTML = 'LESS';
+      moreOrLessArrow.classList.add('rotate180');
+    } else {
+      moreOrLess.innerHTML = 'MORE';
+      moreOrLessArrow.classList.remove('rotate180');
+    }
+    //   keep first two speakers visible when LESS is selected
+    const firstSpeaker = document.querySelector('.speaker1');
+    const secondSpeaker = document.querySelector('.speaker2');
+    firstSpeaker.classList.remove('hidden');
+    secondSpeaker.classList.remove('hidden');
+    firstSpeaker.classList.add('visible');
+    secondSpeaker.classList.add('visible');
+  });
 }
+
+// control number of speakers displayed for mobile and desktop views initially
+function controlSpeakers() {
+  const screenWidth = window.screen.width;
+  const speakers = document.querySelectorAll('.speaker-container');
+  speakers.forEach((speaker, index) => {
+    if (screenWidth > 768) {
+      speaker.classList.add('visible');
+      handleCloseMobileMenu();
+    } else if (screenWidth < 768) {
+      if (index < 2) {
+        speaker.classList.add('visible');
+      } else {
+        speaker.classList.add('hidden');
+      }
+    }
+  });
+}
+// for screens greater that 768 px display all speakers and
+// for less than 768 px display 2 speakers initially
+window.addEventListener('resize', () => {
+  controlSpeakers();
+});
+window.onload = () => controlSpeakers();
+window.removeEventListener('resize', () => {});
 main();
