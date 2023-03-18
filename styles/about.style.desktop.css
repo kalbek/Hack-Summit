@@ -1,0 +1,228 @@
+@media (min-width: 768px) {
+  body {
+    max-width: 100vw;
+    position: relative;
+    overflow-x: hidden;
+  }
+
+  .top-nav {
+    display: block;
+    width: 100%;
+  }
+
+  main .container {
+    width: 100%;
+  }
+
+  .top-nav .container {
+    background-color: var(--color-primary);
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    width: 100%;
+    padding: 0.5rem 0 1.5rem 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+
+  .top-nav ul {
+    float: right;
+    gap: 1.5rem;
+    position: absolute;
+    right: 15%;
+  }
+
+  .cc-container {
+    position: absolute;
+    margin-top: 0.2rem;
+    right: 10%;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bottom-nav {
+    width: 100%;
+    background-color: #fff;
+  }
+
+  .bottom-nav .container {
+    width: 70%;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+  }
+
+  .bottom-nav .cc-container {
+    display: block;
+  }
+
+  .bottom-nav .menu-container {
+    padding-top: 1.1rem;
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 17px;
+    right: 15%;
+    position: relative;
+  }
+
+  .menu-container ul {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .bottom-nav .menu-container a {
+    color: var(--color-menu);
+  }
+
+  .bottom-nav .menu-container a:hover {
+    color: var(--color-heading);
+  }
+
+  main .hero {
+    background-image: url("../images/about/about-hero-img-desktop.svg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: 100%;
+    width: 100%;
+    margin-left: 2px;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    height: 80%;
+  }
+
+  .hero-image {
+    background: transparent;
+  }
+
+  .hero-image h1 {
+    font-size: 55px;
+  }
+
+  .about-text p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 1px;
+    width: 78%;
+  }
+
+  main .hero-image p {
+    display: none;
+  }
+
+  .about-text {
+    width: 60%;
+    background-color: #fff;
+    padding: 4rem 1rem;
+    display: flex;
+    justify-content: center;
+    margin-top: -10%;
+  }
+
+  .contact .main-text {
+    font-size: 15px;
+    letter-spacing: 0.7px;
+  }
+
+  .hero .sub-text {
+    letter-spacing: 0.7px;
+  }
+
+  .logo-description {
+    padding: 4% 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+  }
+
+  .logo-description .title {
+    width: 100%;
+  }
+
+  .past-summits .heading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 28px;
+  }
+
+  .logo-description .title .heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 28px;
+  }
+
+  .past-summits {
+    width: 100%;
+  }
+
+  .past-summits .sub-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .past-summits .images {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-bottom: 6%;
+  }
+
+  .partner {
+    display: none;
+  }
+
+  .footer {
+    width: 100%;
+    background-color: #2e2e2e;
+    padding: 4rem 0;
+  }
+
+  .footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10%;
+  }
+
+  .footer .footer-logo {
+    content: url("../images/about/cck-logo-about.svg");
+  }
+
+  .footer .text-content {
+    color: #fff;
+  }
+
+  .footer .sub-text {
+    padding-top: 1rem;
+    display: block;
+    width: 70%;
+    color: #fff;
+  }
+}
