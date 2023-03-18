@@ -74,11 +74,16 @@ Checkout the [video](https://www.loom.com/share/354d06ce5b2d4e83a8d2eef21ad1cd48
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+Try to have these in your local machine
+
+- Git and GitHub
+- VS Code or any code editor
 
 ### Prerequisites
 
-In order to run this project you need a web browser
+In order to run this project you need 
+- A web browser
+- Code editor
 
 ### Setup
 
