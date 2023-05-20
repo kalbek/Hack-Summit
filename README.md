@@ -1,5 +1,5 @@
 <a name="readme-top"></a>
-![Uploading Hack-Summit.png…]()
+![Hack-Summit](https://github.com/kalbek/Hack-Summit/assets/44664009/81862f72-4382-4395-bd99-5c8bcbc434a2)
 
 # 📗 Table of Contents
 
