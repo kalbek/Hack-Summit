@@ -52,13 +52,14 @@
 <!--# 👁  Walkthough HakcSummit 2023 <a name="about-project"></a>
 - Video to walkthrough of this project can be found [here]("https://www.loom.com/share/fadb70b392754ee8ab23da8b3fff2f26")> HTML CSS & Java Script
 <details>
-  <summary>Client</summary>
   <ul>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
   </ul>
 </details> -->
+
 ### Key Features <a name="key-features"></a>
+
 - **Presents the Home page for HackSummit 2023**
 - **Presents the About page for HackSummit 2023**
 - **Displays Speakers List with more and less button functionality**
