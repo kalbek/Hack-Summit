@@ -71,7 +71,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> The live demo link to this project can be found at: 
+> Link to live demo of this project can be found here: 
 
 - [Live Demo Link](https://kalbek.github.io/Capstone-1-Hack-Summit/)
 
@@ -153,13 +153,13 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project give a star to this repositiory.
+If you like this project give a star to this repository.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-A huge shoutout for [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) who is creator of the original design in which this project is inspired.
+A huge shout out to [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) who created the original design from which this project is inspired.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -169,9 +169,9 @@ A huge shoutout for [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Glo
 
   - Yes, this project is free for copying and reusing in any way you like.
 
-- How often will the future features will be implemented?
+- How often will the future features be implemented?
 
-  - As this is personal porfolio, the owner will update this projects pages more frequently with every enhancements in personal status.
+  - New features will be implemented depending on the request of stakeholders.
 
 ## 📝 License <a name="license"></a>
 
