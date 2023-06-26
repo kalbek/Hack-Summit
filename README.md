@@ -1,4 +1,8 @@
 <a name="readme-top"></a>
+# 📖 HackSummit 2023 <a name="about-project"></a>
+
+**HackSummit 2023** is a website developed for the 2023 Global Hack Summit.
+
 ![Hack-Summit](https://github.com/kalbek/Hack-Summit/assets/44664009/81862f72-4382-4395-bd99-5c8bcbc434a2)
 
 # 📗 Table of Contents
@@ -25,10 +29,6 @@
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
-
-# 📖 HakcSummit 2023 <a name="about-project"></a>
-
-**HackSummit 2023** is a capstone project for HTML CSS and JavaScript module at microverse
 
 ## 🛠 Built With <a name="built-with"> HTML CSS & Java Script</a>
 
