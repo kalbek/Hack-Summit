@@ -62,13 +62,10 @@
   </ul>
 </details> -->
 ### Key Features <a name="key-features"></a>
-
-> Describe between 1-3 key features of the application.
-
 - **Presents the Home page for HackSummit 2023**
 - **Presents the About page for HackSummit 2023**
 - **Displays Speakers List with more and less button functionality**
-- **Displays Mobile Menu**
+- **The site is responsive.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
